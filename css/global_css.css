@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body{
+	margin: 5px;
+	background-color: #000;
+	margin: 0px 0px 0px 0px;
+}
+
+.page{
+	background-color: transparent;
+	max-width: 980px;
+	max-height:100%;	
+}
+
+.container-fluid{
+	padding-left: 0;
+	padding-right: 0;
+}
+.container{
+	padding-right: 0;
+	padding-left: 0;
+}
