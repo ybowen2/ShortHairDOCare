@@ -5,6 +5,15 @@ body{
 	background-color: #000;
 	margin: 0px 0px 0px 0px;
 }
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.2em;
+}
+h2{
+	font-family: 'Droid Sans Mono';
+	font-size: 1.8em;
+}
+
 
 .page{
 	background-color: transparent;
@@ -20,3 +29,102 @@ body{
 	padding-right: 0;
 	padding-left: 0;
 }
+
+.buttonvm {
+  color: #fff;
+  font-size: 1.3em;
+  font-family: 'Droid Sans Mono';
+  border-radius: 15%;
+  background-color: #000;
+  opacity: 0.8;
+  border-color: #fff;
+  border-style: solid;
+  opacity: 0.7;
+  border-spacing: 1px;
+  border-width: 2px;
+  
+}
+
+.buttonvm:hover,
+.buttonvm.hover {
+  background-color: #000;
+  opacity: 0.8;
+  border-color: #fff;
+  color: #fff;
+  
+}
+
+.buttonvm:active,
+.buttonvm.active {
+  background-color: #fff;
+  color: #000;
+  text-shadow: -1px 1px #193047;
+}
+
+@media only screen 
+    and (min-device-width : 1000px) 
+    {
+    	#myCarousel {
+    		visibility: hidden;
+    	}
+    	.buttonvm{
+    		border-radius: 0%;
+    	}
+    	.bgimage {
+    		visibility: visible;
+    		opacity: 0.8;
+    		top: 70px;
+    		max-width: 100%;
+    	}
+    	.homeaction{
+    		bottom: 2px;
+
+    	}
+    	h1 {
+    		font-size: 5em;
+    		text-transform: lowercase;
+    	}
+    	#home_title_mobile {
+    		visibility: hidden;
+    	}
+    	#home_title_desktop {
+    		visibility: visible;
+    		font-size: 2.2em;
+    		left: 70px;
+    		
+    	}
+    	#vagmocircle{
+    		top: 0px;
+    		padding-top: 15px;
+    		visibility: hidden;
+    	}
+
+    }
+
+@media only screen 
+    and (max-device-width : 667px) 
+    {
+    	.bgimage {
+    		visibility: hidden;
+
+    	}
+    	h1 {
+    		font-size: 2.2em;
+    	}
+    	.homeaction{
+    		bottom: 5%;
+    	}
+
+    	#home_title_desktop{
+    		visibility: hidden;
+    	}
+    	#home_title_mobile{
+    		visibility: visible;
+    		
+    	}
+    	#vagmocircle{
+    		text-align: center;
+    		top: 70px;
+    		padding:2%;
+    	}
+    }
