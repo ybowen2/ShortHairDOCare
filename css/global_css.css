@@ -19,12 +19,13 @@ h2{
 .page{
 	background-color: transparent;
 	max-width: 980px;
-	max-height:100%;	
+	max-height:inherit;	
 }
 
 .container-fluid{
 	padding-left: 0;
 	padding-right: 0;
+	max-height: 100%;
 }
 .container{
 	padding-right: 0;
@@ -131,6 +132,12 @@ h2{
     		text-align: center;
     		top: 70px;
     		padding:2%;
+    		border-top-style: solid;
+    		border-top-color: #fff;
+    		border-top-width: 3px;
+    		border-bottom-style: solid;
+    		border-bottom-color: #fff;
+    		border-bottom-width: 3px;
     	}
     	.navbarholder{
     		width: 100%;
