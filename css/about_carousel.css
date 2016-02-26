@@ -2,11 +2,28 @@
   .carousel-inner > .item > a > img {
       width: 100%;
       overflow: hidden;
-      height: auto;
+      height: 100%;
+      padding-top: 70px;
       max-width: 100%;
-      max-height: 650px;
-      visibility: visible;
+      max-height: 700px;
+      
 }
 #MyCarousel{
 	padding: 5px;
 }
+
+@media only screen 
+    and (min-device-width : 1000px) 
+    {
+    	.vagmocircle {
+    		visibility: visible;
+    	}
+    }
+
+@media only screen 
+    and (max-device-width : 667px) 
+    {
+    	.vagmocircle {
+    		visibility: hidden;
+    	}
+    }
