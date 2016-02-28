@@ -8,18 +8,25 @@ body{
 
 h1{
 	font-family: 'Montserrat', sans-serif;
-	font-size: 2.2em;
+	
 }
 h2{
-	font-family: 'Droid Sans Mono';
-	font-size: 1.8em;
+	font-family: 'Montserrat';
+	
 }
 
 p{
 	font-family: 'Droid Sans Mono';
 	font-weight:lighter;
+	
 }
 
+.hover_p:hover{
+	background-color:#222;
+	box-shadow: 5pt;
+	opacity: 0.8;
+
+}
 .page{
 	background-color: transparent;
 	max-width: 980px;
