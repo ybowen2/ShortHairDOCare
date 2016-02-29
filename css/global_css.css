@@ -2,31 +2,44 @@
 
 body{
 	margin: 5px;
-	background-color: #000;
+	background-color: #fff;
 	margin: 0px 0px 0px 0px;
 }
 
 h1{
 	font-family: 'Montserrat', sans-serif;
+	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 26.4px;*/
 	
 }
 h2{
 	font-family: 'Montserrat';
+	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 26.4px;*/
 	
 }
 
 p{
-	font-family: 'Droid Sans Mono';
-	font-weight:lighter;
+	/*font-family: 'Montserrat';
+	font-weight:lighter;*/
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 26.4px;
 	
 }
 
-.hover_p:hover{
-	background-color:#222;
-	box-shadow: 5pt;
-	opacity: 0.8;
 
-}
 .page{
 	background-color: transparent;
 	max-width: 980px;

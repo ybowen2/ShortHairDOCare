@@ -11,25 +11,24 @@
         }
     	h1 {
     		font-size: 2.5em;
-            color: #990000;
+            color: #000;
             text-align: center;
             font-weight: bold;
             text-transform: uppercase;
     	}
     	h2{
             font-size: 2em;
-            color: #a64d79;
+            color: #000;
             text-align: center;
             text-transform: uppercase;
             
         }
         p{
             font-size: 1.5em;
-            font-weight: lighter;
-            color: #ccc;
-            padding: 1%;
-            text-align: center;
-        }
+            color: #191919;
+            padding-left: 5%;
+            padding-right: 5%;
+         }
     	#home_title_desktop{
     		visibility: hidden;
             font-size: 1.5em;

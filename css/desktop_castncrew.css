@@ -2,22 +2,14 @@
 @media only screen 
     and (min-device-width : 1000px) 
     {
-    	.buttonvm{
-    		border-radius: 0%;
-    	}
-    	.bgimage {
-    		visibility: visible;
-    		opacity: 0.8;
-    		top: 70px;
-    		max-width: 100%;
-    	}
+    	
     	.homeaction{
     		bottom: 2px;
 
     	}
     	h1 {
             font-size: 3.3em;
-            color: #000;
+            color: #990000;
             text-align: center;
             font-weight: bold;
             text-transform: uppercase;
@@ -25,17 +17,26 @@
 
         h2{
             font-size: 2.5em;
-            color: #000;
+            color: #a64d79;
             text-align: center;
             text-transform: uppercase;
             
         }
         p{
-            /*font-size: 1.5em;
-            font-weight: lighter;*/
-            color: #191919;
-            padding-left:  10%;
-            padding-right: 10%;
+            font-size: 1.5em;
+            font-weight: lighter;
+            color: #ccc;
+            padding: 5%;
+        }
+        .castncrew-image{
+            width: 100%;
+            height: 90%;
+            overflow: hidden;
+        }
+        .castncrew-image img {
+            width:100%;
+            height: 100%;
+            overflow: hidden;
         }
     	#home_title_mobile {
     		visibility: hidden;
@@ -56,5 +57,18 @@
     		right: 15px;
     		font-size: 1em;
     	}
+
+        .gallery_header{
+            margin-top: 100px;
+        }
+        
+       .gallery_holder{
+            width: 100%;
+            max-width: 100%;
+            position: relative;
+        }
+
+        
+
 
     }
